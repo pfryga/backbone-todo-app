@@ -1,0 +1,23 @@
+{
+  "name": "backboneToDoApp",
+  "version": "1.0.0",
+  "description": "BackboneJS ToDo Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pfryga/backbone-todo-app.git"
+  },
+  "keywords": [
+    "backbone",
+    "todo"
+  ],
+  "author": "piotr.fryga@allegro.pl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfryga/backbone-todo-app/issues"
+  },
+  "homepage": "https://github.com/pfryga/backbone-todo-app"
+}
