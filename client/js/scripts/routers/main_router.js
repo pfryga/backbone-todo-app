@@ -1,11 +1,13 @@
 var Router = Backbone.Router.extend({
     routes: {
-        '': 'home'
+        '' : 'home'
     }
 });
 
 var router = new Router();
 
-router.on('home', function () {
+router.on('route:home', function() {
     console.log('home page');
 });
+
+Backbone.history.start();
