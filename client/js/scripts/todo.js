@@ -1,1 +1,0 @@
-var listView = new ListView();

@@ -4,7 +4,7 @@ define([
     'backbone',
     'routers/main_router'
 ], function($, _, Backbone, Router){
-    var init = function(){
+    var init = function() {
         Router.initialize();
     };
 

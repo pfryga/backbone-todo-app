@@ -1,6 +1,7 @@
 define([
-    'backbone'
-], function (Backbone) {
+    'backbone',
+    'views/listView'
+], function (Backbone, listView) {
     var Router = Backbone.Router.extend({
         routes: {
             '' : 'home',
@@ -12,7 +13,7 @@ define([
         var router = new Router();
 
         router.on('route:home', function() {
-            console.log('home page');
+            listView.initialize();
         });
 
         router.on('route:edit', function() {
