@@ -1,1 +1,1 @@
-console.log(1);
+var listView = new ListView();
