@@ -1,12 +1,16 @@
 define([
+    'jquery',
+    'underscore',
     'backbone',
     'text!templates/listTpl.html'
-], function(Backbone, listTpl) {
+], function($, _, Backbone, listTpl) {
 
     var ListView = Backbone.View.extend({
         el: '.main-content',
         render: function() {
-            this.$el.html('<span>List View</span>');
+            // var template = _.template($('#main-content-list').html());
+            // this.$el.html(template);
+            this.$el.html('Lorem ipsum!');
         },
         initialize: function () {
             console.log('view was initialized');
